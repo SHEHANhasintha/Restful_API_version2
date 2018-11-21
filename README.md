@@ -12,7 +12,7 @@ Basic ping for the first test to see weather the RESTFUL API is working or not w
 **http://localhost:3000/ping
 This RESTFUL API includes these microservices and they have their own CRUD OPERATIONS available.
 *handlers(user logging)
-**/user\n
+**/user
 **/verify
 **/
 *logout
