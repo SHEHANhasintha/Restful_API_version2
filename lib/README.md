@@ -201,3 +201,6 @@ create user => create token
            |- ping
       | ~ @handlers__
            |- notFound
+
+*CLI - command line tool
+typein "man" or "help" on the command prompt
