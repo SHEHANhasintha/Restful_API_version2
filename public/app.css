@@ -1,0 +1,275 @@
+.formError{
+  font-size: 15px;
+  color:#000;
+  
+}
+
+body{
+  margin: 0px;
+  padding: 20px 40px;
+  height:100vh;
+  background-image: url("http://localhost:3000/public/gradient.jpg");
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.editAccount{
+  width:500px;
+}
+
+.editAccount label{
+  max-width: 250px;
+  width:300px;
+  margin:20px auto ;
+}
+
+.editAccount input{
+  max-width: 300px;
+  width:300px;
+  color: #ccc;
+  margin-bottom:10px;
+  background:none;
+  border: none;
+  border-bottom:solid 1px #fff;
+  outline: none;
+}
+
+.proId{
+  display: none;
+}
+
+.itemImage{
+  max-width: 220px;
+  max-height: 200px;
+  min-width: 220px;
+  min-height: 200px;
+}
+
+.productId, .orderId{
+  display: none;
+}
+
+.orderId{
+  font-size:12px;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary, .editAccount{
+  margin: 20px auto;
+}
+
+.items:hover{
+  background-color:#fff;
+}
+
+.availableItems{
+  padding:10px;
+}
+
+.header{
+  position: relative;
+  top:0px;
+}
+
+.summary{
+  padding:10px;
+  max-height:100vh;
+}
+
+.header{
+  min-width: 300px;
+}
+
+.Logout{
+  display: block;
+}
+
+.mainPage{
+  align: center;
+  margin:auto;
+  max-width: 60vw;
+}
+
+.footer{
+  max-width: 350px;
+  margin-top : 40px;
+}
+
+.copyright{
+  color:#000;
+  text-shadow: 2px  3px 5px #000;
+}
+
+.foodContainer > *{
+  margin:auto;
+}
+
+.mortivationTitle{
+  margin: 10px 10px ;
+}
+
+.mortivationTitle span{
+  font-size:40px;
+  font-family: "Forte";
+  color:#f7b538;
+  text-shadow: 3px 3px 2px #000;
+}
+
+.inputWrapper{
+  background: #000a;
+  outline: none;
+  border: solid 2px #000;
+  border-radius: 3px;
+  width: 300px;
+  height: 25px;
+  color: #ccc;
+  font-size: 13px;
+}
+
+.formError{
+  display: block;
+}
+
+.createAccount{
+  margin: auto;
+}
+
+.createAccount *{
+  margin: auto;
+  display: block;
+}
+
+#createAccount *{
+  margin: 10px;
+}
+
+.submitWrapper{
+  margin: auto;
+  background: #abc6;
+  width:100px ;
+  height: 30px ;
+  border-radius: 3px;
+  border: solid 2px #868;
+  box-shadow: 0px 5px 5px #000b;
+  color: #000;
+}
+
+.loginForm{
+  margin : auto;
+}
+
+.loginForm *{
+  display: block;
+}
+
+.card{
+  width: 170px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: #f00;
+  border: solid 5px #947;
+  transform: rotate(5deg);
+  z-index:30;
+  margin: 10px ;
+  display: inline-block;
+}
+
+.card img{
+  width: 170px;
+  height: 200px;
+}
+
+.logo{
+  width:100px;
+  heigth:100px;
+}
+
+
+a {
+  font-family: "Cooper";
+  color: #d3d3d3;
+  text-decoration:none;
+  text-shadow : 2px 2px #f005;
+  font-size: 25px;
+}
+
+li {
+  padding: 5px 0px;
+  list-style-type: none;
+}
+
+.pay label{
+  color:#000;
+
+}
+
+.dashBoard *{
+  color:#000;
+}
+
+.dashBoard th{
+  border: solid 2px #fff ;
+  min-width: 100px;
+}
+
+.successbtn{
+  font-size:15px;
+}
+
+.transSuccess{
+  width:75vw;
+}
+
+.success{
+  color:#5b5;
+  font-size:40px;
+}
+
+.display{
+  display: none;
+}
+
+.displayOn{
+  display: block;
+}
+
+.errorPage{
+  font-size:40px;
+  color:#f00;
+}
+
+#availableItems{
+  margin:auto;
+  color:#000;
+}
+
+#availableItems td{
+  font-size:15px;
+  /*border: solid 2px #000;*/
+  background-color: #fff2;
+  min-width: 20px;
+}
+
+#availableItems th{
+  font-size:15px;
+  border: solid 2px #000;
+  min-width: 200px;
+}
+
+.editAccount{
+  color:#000;
+}
+
+#editAccount span{
+  width: 150px;
+}
+
+.items{
+  cursor: pointer;
+}
