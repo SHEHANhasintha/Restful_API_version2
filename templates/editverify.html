@@ -1,0 +1,17 @@
+<div>
+		<label for="editOrder">{editOrder.title}</label>
+	<form name="editOrder" class="editOrder" id="editOrder" action="/api/buyNow" method="PUT">
+		<div class="formError">error</div>
+			<label for="orderId">orderId
+			<input type="text" name="orderId" disabled></label>
+
+			<label for="quentity">quentity
+			<input type="number" name="quentity" placeholder="1" value="1" min="1" max="10"  id="quentity">
+
+		</label>
+
+			<button id="submit">submit</button>
+			<label for="deleteOrder">deleteOrder
+			<input type="button" value="deleteOrder" id="deleteOrder" name="deleteOrder"></label>
+	</form>
+</div>

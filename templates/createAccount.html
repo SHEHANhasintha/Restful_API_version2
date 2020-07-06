@@ -1,0 +1,16 @@
+<div class="createAccount">
+  <form id="createAccount" action="api/users/" method="POST">
+    <div class="formError">failed to create an account. try again</div>
+    <input type="text" name="firstName"  class="inputWrapper" placeholder="first name">
+    <input type="text" name="lastName" class="inputWrapper" placeholder="last name">
+    <input type="email" name="email"  class="inputWrapper" placeholder="email">
+    <input type="number" name="phone"  class="inputWrapper" placeholder="number">
+    <input type="password" name="password"  class="inputWrapper" placeholder="password">
+    <input type="password" name="repeatPassword"  class="inputWrapper" placeholder="repeat Password">
+    <input type="text" name="address"  class="inputWrapper" placeholder="address">
+    <label for="tosAgreement">
+    <input type="checkbox" name="tosAgreement" id="tosAgreement" class="checkbox"> Agree with the licenses</label>
+    <button type="submit" class="submitWrapper">Submit</button>
+  </form>
+</div>
+  
