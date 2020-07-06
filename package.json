@@ -1,0 +1,23 @@
+{
+  "name": "restful_api_version2",
+  "version": "1.0.0",
+  "description": "*This is a backend project that has RESTFUL API developed for a PIZZA DELIVERY company.\r This repository has been developed and still to be developed as the home work assignment in NodeJs master class.\r #####start the server\r run : exe.bat\r This backend could be running on two enviroments\r *staging\r \t\thttp://localhost:3000\r *production\r \t\thttp://localhost:3001\r Basic ping for the first test to see weather the RESTFUL API is working or not working.\r */ping\r \t\thttp://localhost:3000/ping",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start" : "set node_env=workers && node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SHEHANhasintha/Restful_API_version2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SHEHANhasintha/Restful_API_version2/issues"
+  },
+  "homepage": "https://github.com/SHEHANhasintha/Restful_API_version2#readme"
+}
